@@ -1,0 +1,783 @@
+{
+    "id": 1,
+    "interview_pages": [
+        {
+            "id": 1,
+            "section": "1.身長・体重",
+            "question_items": [
+                {
+                    "id": 1,
+                    "type": 1,
+                    "question": "身長、体重の入力をお願いいたします。",
+                    "memo": "※ MRI撮影時に必要なため、ご入力ください。",
+                    "caution": "",
+                    "required_flag": 0,
+                    "child_items": [
+                        {
+                            "id": 2,
+                            "type": 2,
+                            "question": "身長",
+                            "memo": "",
+                            "caution": "",
+                            "required_flag": 1,
+                            "answer_items": [
+                                {
+                                    "id": 1,
+                                    "type": "number",
+                                    "memo": "※小数点以下四捨五入",
+                                    "caption": "",
+                                    "before_string": "",
+                                    "after_string": "cm",
+                                    "placeholder": "175",
+                                    "num_default": 165,
+                                    "num_min": 110,
+                                    "num_max": 250,
+                                    "num_interval": 1,
+                                    "extension": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "type": 2,
+                            "question": "体重",
+                            "memo": "",
+                            "caution": "",
+                            "required_flag": 1,
+                            "answer_items": [
+                                {
+                                    "id": 2,
+                                    "type": "number",
+                                    "memo": "※小数点以下四捨五入",
+                                    "caption": "",
+                                    "before_string": "",
+                                    "after_string": "kg",
+                                    "placeholder": "60",
+                                    "num_default": 60,
+                                    "num_min": 10,
+                                    "num_max": 200,
+                                    "num_interval": 1,
+                                    "extension": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "answer_items": []
+                }
+            ],
+            "page_conditions": []
+        },
+        {
+            "id": 2,
+            "section": "2.脳ドックについて",
+            "question_items": [
+                {
+                    "id": 4,
+                    "type": 1,
+                    "question": "今までに脳ドックを受けたことがありますか？",
+                    "memo": "",
+                    "caution": "",
+                    "required_flag": 1,
+                    "child_items": [],
+                    "answer_items": [
+                        {
+                            "id": 3,
+                            "type": "radio",
+                            "caption": "あり",
+                            "before_string": "",
+                            "after_string": "",
+                            "extension": ""
+                        },
+                        {
+                            "id": 4,
+                            "type": "radio",
+                            "caption": "なし",
+                            "before_string": "",
+                            "after_string": "",
+                            "extension": ""
+                        }
+                    ]
+                }
+            ],
+            "page_conditions": []
+        },
+        {
+            "id": 3,
+            "section": "2.脳ドックについて",
+            "question_items": [
+                {
+                    "id": 5,
+                    "type": 1,
+                    "question": "あると答えた方のみご記入ください。",
+                    "memo": "",
+                    "caution": "",
+                    "required_flag": 0,
+                    "child_items": [
+                        {
+                            "id": 6,
+                            "type": 2,
+                            "question": "時期",
+                            "memo": "",
+                            "caution": "",
+                            "required_flag": 0,
+                            "answer_items": [
+                                {
+                                    "id": 5,
+                                    "type": "text",
+                                    "caption": "",
+                                    "before_string": "",
+                                    "after_string": "年",
+                                    "placeholder": "2017",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 6,
+                                    "type": "text",
+                                    "caption": "",
+                                    "before_string": "",
+                                    "after_string": "月",
+                                    "placeholder": "5",
+                                    "extension": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "type": 2,
+                            "question": "病院名",
+                            "memo": "",
+                            "caution": "",
+                            "required_flag": 0,
+                            "answer_items": [
+                                {
+                                    "id": 7,
+                                    "type": "text",
+                                    "caption": "",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "placeholder": "メディカルチェックスタジオ",
+                                    "extension": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": 8,
+                            "type": 2,
+                            "question": "以前に受けた脳ドックの所見はあります。",
+                            "memo": "",
+                            "caution": "",
+                            "required_flag": 0,
+                            "answer_items": [
+                                {
+                                    "id": 8,
+                                    "type": "radio",
+                                    "caption": "あり",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "placeholder": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 9,
+                                    "type": "radio",
+                                    "caption": "なし",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "placeholder": "",
+                                    "extension": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": 9,
+                            "type": 2,
+                            "question": "以前に受けた脳ドックの所見内容",
+                            "memo": "",
+                            "caution": "",
+                            "required_flag": 0,
+                            "answer_items": [
+                                {
+                                    "id": 10,
+                                    "type": "textarea",
+                                    "caption": "",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "placeholder": "",
+                                    "extension": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "answer_items": []
+                }
+            ],
+            "page_conditions": [
+                {
+                    "interview_page_id": 2,
+                    "question_item_id": 4,
+                    "answer_item_id": 3
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "section": "2.脳ドックについて",
+            "question_items": [
+                {
+                    "id": 10,
+                    "type": 1,
+                    "question": "今までにケガなどで頭のMRIやCT検査を受けたことがありますか？",
+                    "memo": "",
+                    "caution": "",
+                    "required_flag": 1,
+                    "child_items": [],
+                    "answer_items": [
+                        {
+                            "id": 11,
+                            "type": "radio",
+                            "caption": "あり",
+                            "before_string": "",
+                            "after_string": "",
+                            "extension": ""
+                        },
+                        {
+                            "id": 12,
+                            "type": "radio",
+                            "caption": "なし",
+                            "before_string": "",
+                            "after_string": "",
+                            "extension": ""
+                        }
+                    ]
+                }
+            ],
+            "page_conditions": []
+        },
+        {
+            "id": 5,
+            "section": "2.脳ドックについて",
+            "question_items": [
+                {
+                    "id": 11,
+                    "type": 1,
+                    "question": "あると答えた方のみご記入ください。",
+                    "memo": "",
+                    "caution": "",
+                    "required_flag": 0,
+                    "child_items": [
+                        {
+                            "id": 12,
+                            "type": 2,
+                            "question": "検査",
+                            "memo": "",
+                            "caution": "",
+                            "required_flag": 0,
+                            "answer_items": [
+                                {
+                                    "id": 13,
+                                    "type": "checkbox",
+                                    "caption": "1.CT",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 14,
+                                    "type": "checkbox",
+                                    "caption": "2.MRI",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": 13,
+                            "type": 2,
+                            "question": "時期",
+                            "memo": "",
+                            "caution": "",
+                            "required_flag": 0,
+                            "answer_items": [
+                                {
+                                    "id": 15,
+                                    "type": "text",
+                                    "caption": "",
+                                    "before_string": "",
+                                    "after_string": "年",
+                                    "placeholder": "2017",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 16,
+                                    "type": "text",
+                                    "caption": "",
+                                    "before_string": "",
+                                    "after_string": "月",
+                                    "placeholder": "5",
+                                    "extension": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": 14,
+                            "type": 2,
+                            "question": "病院名",
+                            "memo": "",
+                            "caution": "",
+                            "required_flag": 0,
+                            "answer_items": [
+                                {
+                                    "id": 17,
+                                    "type": "textarea",
+                                    "caption": "",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "answer_items": []
+                }
+            ],
+            "page_conditions": [
+                {
+                    "interview_page_id": 4,
+                    "question_item_id": 10,
+                    "answer_item_id": 11
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "section": "3.MRIは強い磁場と電波を使用して身体の断層画像を撮影します。より安全に検査を行うため、次の質問にお答えください。",
+            "question_items": [
+                {
+                    "id": 15,
+                    "type": 1,
+                    "question": "体内に、下記のものはありますか？",
+                    "memo": "※該当する場合MRI検査は受診いただけません。不明な場合はお電話でお問い合わせ下さい。",
+                    "caution": "",
+                    "required_flag": 1,
+                    "child_items": [
+                        {
+                            "id": 16,
+                            "type": 1,
+                            "question": "あるを選択された方で以下のものはありますか？",
+                            "memo": "",
+                            "caution": "",
+                            "required_flag": 0,
+                            "answer_items": [
+                                {
+                                    "id": 18,
+                                    "type": "checkbox",
+                                    "caption": "1.心臓ペースメーカー",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 19,
+                                    "type": "checkbox",
+                                    "caption": "2.植込型除細動器",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 20,
+                                    "type": "checkbox",
+                                    "caption": "3.体内刺激電極",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 21,
+                                    "type": "checkbox",
+                                    "caption": "4.人工内耳",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 22,
+                                    "type": "checkbox",
+                                    "caption": "5.心臓ペーシングワイヤー",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 23,
+                                    "type": "checkbox",
+                                    "caption": "6.磁性体脳動脈瘤クリップ",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 24,
+                                    "type": "checkbox",
+                                    "caption": "7.植え込み型 AED",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 25,
+                                    "type": "checkbox",
+                                    "caption": "8.機械式人工弁",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 26,
+                                    "type": "checkbox",
+                                    "caption": "9.磁性体義眼",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 27,
+                                    "type": "checkbox",
+                                    "caption": "10.乳房再建用の皮膚拡張器",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 28,
+                                    "type": "checkbox",
+                                    "caption": "11.その他",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 29,
+                                    "type": "textarea",
+                                    "caption": "",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "answer_items": [
+                        {
+                            "id": 30,
+                            "type": "radio",
+                            "caption": "あり",
+                            "before_string": "",
+                            "after_string": "",
+                            "extension": ""
+                        },
+                        {
+                            "id": 31,
+                            "type": "radio",
+                            "caption": "なし",
+                            "before_string": "",
+                            "after_string": "",
+                            "extension": ""
+                        }
+                    ]
+                }
+            ],
+            "page_conditions": []
+        },
+        {
+            "id": 7,
+            "section": "3.MRIは強い磁場と電波を使用して身体の断層画像を撮影します。より安全に検査を行うため、次の質問にお答えください。",
+            "question_items": [
+                {
+                    "id": 17,
+                    "type": 1,
+                    "question": "体内に、下記の金属異物はありますか？",
+                    "memo": "※入れられた時期や場所によって、検査を受けられないことがあります。可能であれは、MRIの可否を手術を受けられた医師にご確認ください。",
+                    "caution": "",
+                    "required_flag": 1,
+                    "child_items": [
+                        {
+                            "id": 18,
+                            "type": 1,
+                            "question": "金属異物",
+                            "memo": "",
+                            "caution": "※複数チェック可",
+                            "required_flag": 0,
+                            "answer_items": [
+                                {
+                                    "id": 34,
+                                    "type": "checkbox",
+                                    "caption": "1.冠動脈ステント",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 35,
+                                    "type": "text",
+                                    "caption": "",
+                                    "before_string": "手術日",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 36,
+                                    "type": "text",
+                                    "caption": "",
+                                    "before_string": "部位",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 37,
+                                    "type": "checkbox",
+                                    "caption": "2.脳動脈瘤クリップ",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 38,
+                                    "type": "text",
+                                    "caption": "",
+                                    "before_string": "手術日",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 39,
+                                    "type": "text",
+                                    "caption": "",
+                                    "before_string": "部位",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 40,
+                                    "type": "text",
+                                    "caption": "",
+                                    "before_string": "素材",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 41,
+                                    "type": "checkbox",
+                                    "caption": "3.人工関節",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 42,
+                                    "type": "text",
+                                    "caption": "",
+                                    "before_string": "手術日",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 43,
+                                    "type": "text",
+                                    "caption": "",
+                                    "before_string": "部位",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 44,
+                                    "type": "checkbox",
+                                    "caption": "4.その他",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 45,
+                                    "type": "text",
+                                    "caption": "",
+                                    "before_string": "手術日",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 46,
+                                    "type": "text",
+                                    "caption": "",
+                                    "before_string": "部位",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 47,
+                                    "type": "textarea",
+                                    "caption": "",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "answer_items": [
+                        {
+                            "id": 32,
+                            "type": "radio",
+                            "caption": "あり",
+                            "before_string": "",
+                            "after_string": "",
+                            "extension": ""
+                        },
+                        {
+                            "id": 33,
+                            "type": "radio",
+                            "caption": "なし",
+                            "before_string": "",
+                            "after_string": "",
+                            "extension": ""
+                        }
+                    ]
+                }
+            ],
+            "page_conditions": []
+        },
+        {
+            "id": 8,
+            "section": "4.既往歴について",
+            "question_items": [
+                {
+                    "id": 19,
+                    "type": 1,
+                    "question": "高血圧はありますか？",
+                    "memo": "",
+                    "caution": "",
+                    "required_flag": 1,
+                    "child_items": [],
+                    "answer_items": [
+                        {
+                            "id": 48,
+                            "type": "radio",
+                            "caption": "ある",
+                            "before_string": "",
+                            "after_string": "",
+                            "extension": ""
+                        },
+                        {
+                            "id": 49,
+                            "type": "radio",
+                            "caption": "ない",
+                            "before_string": "",
+                            "after_string": "",
+                            "extension": ""
+                        },
+                        {
+                            "id": 50,
+                            "type": "radio",
+                            "caption": "わからない",
+                            "before_string": "",
+                            "after_string": "",
+                            "extension": ""
+                        }
+                    ]
+                }
+            ],
+            "page_conditions": []
+        },
+        {
+            "id": 9,
+            "section": "4.既往歴について",
+            "question_items": [
+                {
+                    "id": 20,
+                    "type": 1,
+                    "question": "あるを選択された方で以下のものはありますか？",
+                    "memo": "",
+                    "caution": "",
+                    "required_flag": 0,
+                    "child_items": [
+                        {
+                            "id": 21,
+                            "type": 1,
+                            "question": "治療状況",
+                            "memo": "",
+                            "caution": "",
+                            "required_flag": 0,
+                            "answer_items": [
+                                {
+                                    "id": 51,
+                                    "type": "radio",
+                                    "caption": "現在通院治療中",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 52,
+                                    "type": "radio",
+                                    "caption": "検診で指摘されたが放置",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                },
+                                {
+                                    "id": 53,
+                                    "type": "radio",
+                                    "caption": "経過観察中",
+                                    "before_string": "",
+                                    "after_string": "",
+                                    "extension": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": 22,
+                            "type": 2,
+                            "question": "収縮期血圧",
+                            "memo": "※わからなければ未記入でも問題ございません。",
+                            "caution": "",
+                            "required_flag": 0,
+                            "answer_items": [
+                                {
+                                    "id": 54,
+                                    "type": "text",
+                                    "caption": "",
+                                    "before_string": "",
+                                    "after_string": "mmHg",
+                                    "placeholder": 186,
+                                    "extension": ""
+                                }
+                            ]
+                        },
+                        {
+                            "id": 23,
+                            "type": 2,
+                            "question": "拡張期血圧",
+                            "memo": "※わからなければ未記入でも問題ございません。",
+                            "caution": "",
+                            "required_flag": 0,
+                            "answer_items": [
+                                {
+                                    "id": 55,
+                                    "type": "text",
+                                    "caption": "",
+                                    "before_string": "",
+                                    "after_string": "mmHg",
+                                    "placeholder": 107,
+                                    "extension": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "answer_items": []
+                }
+            ],
+            "page_conditions": []
+        }
+    ]
+}
