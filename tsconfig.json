@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "lib": [
+            "esnext",
+            "esnext.asynciterable",
+            "dom"
+        ],
+        "esModuleInterop": true,
+        "allowJs": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "strict": true,
+        "noEmit": true,
+        "baseUrl": "./resources/nuxt",
+        "paths": {
+            "~/*": [
+                "./*"
+            ],
+            "@/*": [
+                "./*"
+            ]
+        },
+        "types": [
+            "@nuxt/types",
+            "node",
+            "@nuxtjs/axios",
+        ]
+    },
+    "exclude": [
+        "vendor",
+        "node_modules",
+        "resources/nuxt/static",
+        "public"
+    ]
+}
