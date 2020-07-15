@@ -32,6 +32,7 @@
         "hooper": "^0.3.4",
         "nuxt": "^2.13.3",
         "nuxt-laravel": "^4.2.7",
+        "nuxt-typed-vuex": "^0.1.19",
         "vee-validate": "^3.3.7",
         "vue-long-click": "0.0.4"
     },

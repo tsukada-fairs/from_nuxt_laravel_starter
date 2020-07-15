@@ -50,6 +50,7 @@ const config: Configuration = {
    */
   buildModules: [
     '@nuxt/typescript-build',
+    'nuxt-typed-vuex'
     // Doc: https://github.com/nuxt-community/eslint-module
     // '@nuxtjs/eslint-module'
     // '@nuxtjs/vuetify'
@@ -84,6 +85,9 @@ const config: Configuration = {
    ** Build configuration
    */
   build: {
+    transpile: [
+      /typed-vuex/,
+    ],
     /*
      ** You can extend webpack config here
      */

@@ -410,7 +410,7 @@ import 'hooper/dist/hooper.css'
 import { extend, ValidationProvider, ValidationObserver } from 'vee-validate'
 import { longclick } from 'vue-long-click'
 import { required, email } from 'vee-validate/dist/rules'
-import { mapState, mapActions } from 'vuex'
+// import { mapState, mapActions } from 'vuex'
 
 interface InterviewAnswer {
   [key: string]: any
@@ -457,8 +457,6 @@ export default Vue.extend({
     }
   },
   mounted() {
-    console.log(this)
-    const prac: string = 'aaa'
     const prepare = async () => {
       this.section = this.interviewSheet.interview_pages[
         this.currentIndex
@@ -491,24 +489,22 @@ export default Vue.extend({
     prepareProcess()
   },
   computed: {
-    ...mapState('interviewSheet', {
-      interviewSheet: (state: any) => state.data
-    })
-    // interviewSheet: function(): any {
-    //   // console.log(this.$accessor);
-    //   return this.$accessor.interviewSheet.data;
-    // }
+    // ...mapState('interviewSheet', {
+    //   interviewSheet: (state: any) => state.data
+    // })
+    interviewSheet: function(): any {
+      return this.$accessor.interviewSheet.data;
+    }
   },
   methods: {
-    ...mapActions('interviewSheet', {
-      async getInterviewSheet(dispatch: any) {
-        await dispatch('getInterviewSheet')
-      }
-    }),
-    // getInterviewSheet: async function() {
-    //   console.log(this.$accessor);
-    //   await this.$accessor.interviewSheet.getInterviewSheet();
-    // },
+    // ...mapActions('interviewSheet', {
+    //   async getInterviewSheet(dispatch: any) {
+    //     await dispatch('getInterviewSheet')
+    //   }
+    // }),
+    getInterviewSheet: async function() {
+      await this.$accessor.interviewSheet.getInterviewSheet();
+    },
     refs(): any {
       return this.$refs
     },
